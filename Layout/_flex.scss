@@ -1,0 +1,20 @@
+.nav_menu {
+    @include flex (flex, space-between, center, none);
+}
+
+.main {
+    @include flex (flex, space-around, none, none);
+}
+
+.main_contacto{
+    @include flex (flex, space-around, center, none);
+}
+
+.carousel{
+    @include flex (flex, center, center, column);
+}
+
+
+.footer_absolute{
+    @include flex (flex, space-around, center, row);
+}

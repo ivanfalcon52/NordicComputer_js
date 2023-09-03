@@ -1,0 +1,23 @@
+.footer_absolute{
+    background-color:map-get($paleta_de_colores,secundario);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 35px;
+}
+
+.pieTxt1 {
+    p{
+    color: map-get($paleta_de_colores,primario);
+    font-size: 13px;
+}
+}
+
+.pieTxt2 {
+    p{
+    color:map-get($paleta_de_colores,primario);
+    font-size: 13px;
+}
+}
+

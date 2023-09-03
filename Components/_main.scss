@@ -1,0 +1,23 @@
+.main {
+    height: 80vh;
+}
+
+
+.grilla{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-container{
+    gap:20px
+}
+
+.text-title{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

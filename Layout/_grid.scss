@@ -1,0 +1,20 @@
+.grilla{
+    @include grid (1,250px,none, 1fr);
+    grid-template-areas: 
+    "nav_aside productos productos productos";
+}
+
+.nav_aside {
+    grid-area: nav_aside;
+    
+}
+
+.productos {
+    grid-area: productos;
+}
+.card-container {
+    @include grid (4,1fr,10px,none);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
