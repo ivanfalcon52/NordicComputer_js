@@ -37,9 +37,10 @@
 .contenedorModal > .modal-content {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
     align-items: center;
     width:70%;
+    margin-top: 8px;
 }
 
 .contenedorModal > div > img {
@@ -52,4 +53,9 @@
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+}
+
+.borrar-producto{
+    cursor: pointer;
+    color: red;
 }
